@@ -51,12 +51,6 @@ O sistema oferece uma série de funcionalidades para facilitar a gestão de sala
 
 * **Recuperação de Senha:** Funcionalidade para recuperação de senha via e-mail.
 
-<p align="center">
-  <img src="screenshots/recuperar_senha.png" alt="Tela de Recuperação de Senha" width="300"/>
-  <br>
-  <em>Tela de Recuperação de Senha.</em>
-</p>
-
 * **Relatórios Detalhados:** Geração e exportação de relatórios de uso das salas (filtrados por tipo de sala e exportáveis em PDF).
 
 <p align="center">
