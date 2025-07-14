@@ -126,7 +126,7 @@ Para uma visão mais detalhada da interface do usuário e outras funcionalidades
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs ou sugestões de novas funcionalidades, ou enviar pull requests.
 
-## Autor
+## Autores
 
 * GUSTAVO VOLPI
 
