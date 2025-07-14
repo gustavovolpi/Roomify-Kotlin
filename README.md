@@ -1,3 +1,9 @@
+Com certeza! Entendido. Vou ajustar a ordem para que a imagem de login seja a primeira a aparecer logo após a visão geral do projeto, e então as outras imagens seguirão suas respectivas funcionalidades.
+
+Aqui está o README.md completo com a imagem de login reposicionada no início e todas as outras imagens nos seus lugares corretos, usando o caminho screenshot/ (singular):
+
+Markdown
+
 # Roomify - Aplicativo de Reservas de Salas de Reunião
 
 ## Visão Geral do Projeto
@@ -126,7 +132,7 @@ Para uma visão mais detalhada da interface do usuário e outras funcionalidades
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs ou sugestões de novas funcionalidades, ou enviar pull requests.
 
-## Autor
+## Autores
 
 * GUSTAVO VOLPI
 
