@@ -12,30 +12,30 @@ _Tela de Login do aplicativo._
 O sistema oferece uma série de funcionalidades para facilitar a gestão de salas:
 
 * **Visualização de Disponibilidade:** Calendário interativo para visualizar a disponibilidade das salas em tempo real.
-![](screenshots/calendario.png)  
+![](screenshots/calendario.png)    
 _Tela de Calendário para visualização de datas disponíveis._
 * **Gestão de Reservas:**
 * Realização de novas reservas com confirmação automática por e-mail.
 ![](screenshots/confirmar_agendamento.png)  
  _Tela de confirmação de agendamento._
 * Alteração de reservas existentes (para administradores).
-![](screenshots/gerenciar_salas.png)  
+![](screenshots/gerenciar_salas.png)    
  _Tela de gerenciamento de salas (Administrador)._
 * Cancelamento de reservas, com atualização imediata da disponibilidade da sala.
 * **Autenticação e Perfis de Acesso:** Sistema de login seguro com diferentes níveis de acesso para Usuários Comuns e Administradores.
-![](screenshots/cadastro.png)  
+![](screenshots/cadastro.png)   
 _Tela de Cadastro de novas contas._
 * **Recuperação de Senha:** Funcionalidade para recuperação de senha via e-mail.
-![](screenshots/recuperar_senha.png)  
+![](screenshots/recuperar_senha.png)   
 _Tela de Recuperação de Senha._
 * **Relatórios Detalhados:** Geração e exportação de relatórios de uso das salas (filtrados por tipo de sala e exportáveis em PDF).
-![](screenshots/gerar_relatorio.png)  
+![](screenshots/gerar_relatorio.png)   
 _Tela de Geração de Relatórios._
-![](screenshots/tela_admin.png)  
+![](screenshots/tela_admin.png)   
 _Visão geral da tela principal do administrador._
 * **Gerenciamento Administrativo:**
 * Atualização de valores de aluguel das salas (para administradores).
-![](screenshots/aluguel.png)  
+![](screenshots/aluguel.png)   
 _Tela para alterar o valor do aluguel de salas._
 * Exclusão de reservas (para administradores).
 * **Notificações:** Envio de e-mails sobre quaisquer mudanças ou reservas realizadas.
