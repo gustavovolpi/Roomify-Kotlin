@@ -1,16 +1,10 @@
-Com certeza! Entendido. Vou ajustar a ordem para que a imagem de login seja a primeira a aparecer logo após a visão geral do projeto, e então as outras imagens seguirão suas respectivas funcionalidades.
-
-Aqui está o README.md completo com a imagem de login reposicionada no início e todas as outras imagens nos seus lugares corretos, usando o caminho screenshot/ (singular):
-
-Markdown
-
 # Roomify - Aplicativo de Reservas de Salas de Reunião
 
 ## Visão Geral do Projeto
 
 O Roomify é um aplicativo mobile desenvolvido em **Kotlin** e **Android Studio** com o objetivo de otimizar o processo de reserva e gerenciamento de salas de reunião em ambientes corporativos. Ele busca resolver problemas comuns como a falta de clareza sobre a disponibilidade das salas e a dificuldade em gerenciar horários, proporcionando uma plataforma centralizada para agendamentos eficientes.
 
-![](screenshot/login.png)
+![](screenshots/login.png)
 _Tela de Login do aplicativo._
 
 ## Funcionalidades Principais
@@ -18,30 +12,30 @@ _Tela de Login do aplicativo._
 O sistema oferece uma série de funcionalidades para facilitar a gestão de salas:
 
 * **Visualização de Disponibilidade:** Calendário interativo para visualizar a disponibilidade das salas em tempo real.
-    ![](screenshot/calendario.png)
+    ![](screenshots/calendario.png)
     _Tela de Calendário para visualização de datas disponíveis._
 * **Gestão de Reservas:**
     * Realização de novas reservas com confirmação automática por e-mail.
-        ![](screenshot/confirmar_agendamento.png)
+        ![](screenshots/confirmar_agendamento.png)
         _Tela de confirmação de agendamento._
     * Alteração de reservas existentes (para administradores).
-        ![](screenshot/gerenciar_salas.png)
+        ![](screenshots/gerenciar_salas.png)
         _Tela de gerenciamento de salas (Administrador)._
     * Cancelamento de reservas, com atualização imediata da disponibilidade da sala.
 * **Autenticação e Perfis de Acesso:** Sistema de login seguro com diferentes níveis de acesso para Usuários Comuns e Administradores.
-    ![](screenshot/cadastro.png)
+    ![](screenshots/cadastro.png)
     _Tela de Cadastro de novas contas._
 * **Recuperação de Senha:** Funcionalidade para recuperação de senha via e-mail.
-    ![](screenshot/recuperar_senha.png)
+    ![](screenshots/recuperar_senha.png)
     _Tela de Recuperação de Senha._
 * **Relatórios Detalhados:** Geração e exportação de relatórios de uso das salas (filtrados por tipo de sala e exportáveis em PDF).
-    ![](screenshot/gerar_relatorio.png)
+    ![](screenshots/gerar_relatorio.png)
     _Tela de Geração de Relatórios._
-    ![](screenshot/tela_admin.png)
+    ![](screenshots/tela_admin.png)
     _Visão geral da tela principal do administrador._
 * **Gerenciamento Administrativo:**
     * Atualização de valores de aluguel das salas (para administradores).
-        ![](screenshot/aluguel.png)
+        ![](screenshots/aluguel.png)
         _Tela para alterar o valor do aluguel de salas._
     * Exclusão de reservas (para administradores).
 * **Notificações:** Envio de e-mails sobre quaisquer mudanças ou reservas realizadas.
@@ -99,31 +93,31 @@ A estrutura segue o padrão de projetos Android:
 * `settings.gradle.kts`: Configurações de módulos do Gradle.
 * `README.md`: Este arquivo de documentação.
 * `LICENSE`: O arquivo de licença do projeto.
-* `screenshot/`: Pasta para armazenar as imagens das telas do aplicativo.
+* `screenshots/`: Pasta para armazenar as imagens das telas do aplicativo.
 
 ## Mais Telas do Roomify
 
 Para uma visão mais detalhada da interface do usuário e outras funcionalidades:
 
-* ![](screenshot/perfil_usuario.png)
+* ![](screenshots/perfil_usuario.png)
     _Página de perfil do usuário._
-* ![](screenshot/dominios_email.png)
+* ![](screenshots/dominios_email.png)
     _Configuração de domínios de email._
-* ![](screenshot/editar_perfil.png)
+* ![](screenshots/editar_perfil.png)
     _Tela de edição de perfil de usuário._
-* ![](screenshot/editar_pergunta.png)
+* ![](screenshots/editar_pergunta.png)
     _Tela para editar uma pergunta frequente._
-* ![](screenshot/favoritos.png)
+* ![](screenshots/favoritos.png)
     _Projetos favoritos do usuário._
-* ![](screenshot/filtros.png)
+* ![](screenshots/filtros.png)
     _Opções de filtragem de projetos._
-* ![](screenshot/incluir_nova_pergunta.png)
+* ![](screenshots/incluir_nova_pergunta.png)
     _Formulário para incluir uma nova pergunta frequente._
-* ![](screenshot/projeto_visualizacao.png)
+* ![](screenshots/projeto_visualizacao.png)
     _Visualização detalhada de um projeto._
-* ![](screenshot/recuperar_senha.png)
+* ![](screenshots/recuperar_senha.png)
     _Tela de recuperação de senha._
-* ![](screenshot/usuarios.png)
+* ![](screenshots/usuarios.png)
     _Listagem de usuários._
 
 ---
