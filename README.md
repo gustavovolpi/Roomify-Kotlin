@@ -49,7 +49,6 @@ O sistema oferece uma série de funcionalidades para facilitar a gestão de sala
   <em>Tela de Cadastro de novas contas.</em>
 </p>
 
-* **Recuperação de Senha:** Funcionalidade para recuperação de senha via e-mail.
 
 * **Relatórios Detalhados:** Geração e exportação de relatórios de uso das salas (filtrados por tipo de sala e exportáveis em PDF).
 
@@ -75,6 +74,8 @@ O sistema oferece uma série de funcionalidades para facilitar a gestão de sala
 </p>
 
   * Exclusão de reservas (para administradores).
+
+* **Recuperação de Senha:** Funcionalidade para recuperação de senha via e-mail.
 
 * **Notificações:** Envio de e-mails sobre quaisquer mudanças ou reservas realizadas.
 
