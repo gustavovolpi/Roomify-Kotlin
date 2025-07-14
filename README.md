@@ -31,7 +31,7 @@ O sistema oferece uma série de funcionalidades para facilitar a gestão de sala
   <em>Tela de confirmação de agendamento.</em>
 </p>
 
-    * Alteração de reservas existentes (para administradores).
+  * Alteração de reservas existentes (para administradores).
 
 <p align="center">
   <img src="screenshots/gerenciar_salas.png" alt="Tela de gerenciamento de salas" width="300"/>
@@ -39,7 +39,7 @@ O sistema oferece uma série de funcionalidades para facilitar a gestão de sala
   <em>Tela de gerenciamento de salas (Administrador).</em>
 </p>
 
-    * Cancelamento de reservas, com atualização imediata da disponibilidade da sala.
+  * Cancelamento de reservas, com atualização imediata da disponibilidade da sala.
 
 * **Autenticação e Perfis de Acesso:** Sistema de login seguro com diferentes níveis de acesso para Usuários Comuns e Administradores.
 
@@ -80,7 +80,7 @@ O sistema oferece uma série de funcionalidades para facilitar a gestão de sala
   <em>Tela para alterar o valor do aluguel de salas.</em>
 </p>
 
-    * Exclusão de reservas (para administradores).
+  * Exclusão de reservas (para administradores).
 
 * **Notificações:** Envio de e-mails sobre quaisquer mudanças ou reservas realizadas.
 
@@ -106,7 +106,7 @@ Para executar e desenvolver o Roomify, você precisará de:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/gustavovolpi/Roomify-Kotlin.git](https://github.com/gustavovolpi/Roomify-Kotlin.git)
+    https://github.com/gustavovolpi/Roomify-Kotlin.git
     ```
 2.  **Configuração do Firebase:**
     * Crie um novo projeto no [Firebase Console](https://console.firebase.google.com/).
@@ -147,51 +147,7 @@ Para uma visão mais detalhada da interface do usuário e outras funcionalidades
   <br>
   <em>Página de perfil do usuário.</em>
 </p>
-<p align="center">
-  <img src="screenshots/dominios_email.png" alt="Configuração de domínios de email" width="300"/>
-  <br>
-  <em>Configuração de domínios de email.</em>
-</p>
-<p align="center">
-  <img src="screenshots/editar_perfil.png" alt="Tela de edição de perfil" width="300"/>
-  <br>
-  <em>Tela de edição de perfil de usuário.</em>
-</p>
-<p align="center">
-  <img src="screenshots/editar_pergunta.png" alt="Tela para editar pergunta" width="300"/>
-  <br>
-  <em>Tela para editar uma pergunta frequente.</em>
-</p>
-<p align="center">
-  <img src="screenshots/favoritos.png" alt="Projetos favoritos" width="300"/>
-  <br>
-  <em>Projetos favoritos do usuário.</em>
-</p>
-<p align="center">
-  <img src="screenshots/filtros.png" alt="Opções de filtragem" width="300"/>
-  <br>
-  <em>Opções de filtragem de projetos.</em>
-</p>
-<p align="center">
-  <img src="screenshots/incluir_nova_pergunta.png" alt="Formulário para nova pergunta" width="300"/>
-  <br>
-  <em>Formulário para incluir uma nova pergunta frequente.</em>
-</p>
-<p align="center">
-  <img src="screenshots/projeto_visualizacao.png" alt="Visualização de projeto" width="300"/>
-  <br>
-  <em>Visualização detalhada de um projeto.</em>
-</p>
-<p align="center">
-  <img src="screenshots/recuperar_senha.png" alt="Tela de recuperação de senha" width="300"/>
-  <br>
-  <em>Tela de recuperação de senha.</em>
-</p>
-<p align="center">
-  <img src="screenshots/usuarios.png" alt="Listagem de usuários" width="300"/>
-  <br>
-  <em>Listagem de usuários.</em>
-</p>
+
 
 ---
 
