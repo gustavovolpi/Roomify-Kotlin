@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">agrvai</string>
+    <string name="subtitle">ALUGUE SALAS DE REUNIÃO DE FORMA SIMPLES!</string>
+    <string name="name_label">NOME</string>
+    <string name="name_hint">Digite seu nome...</string>
+    <string name="cpf_label">CPF</string>
+    <string name="cpf_hint">Digite seu CPF...</string>
+    <string name="email_label">EMAIL</string>
+    <string name="email_hint">Digite seu e-mail... EX: email@provedor.com</string>
+    <string name="phone_label">TELEFONE</string>
+    <string name="phone_hint">Digite seu telefone... EX: (11) 99999-9999</string>
+    <string name="password_label">SENHA</string>
+    <string name="password_hint">Digite sua senha...</string>
+    <string name="password_confirm_hint">Repita sua senha...</string>
+    <string name="register_button_text">CADASTRAR NOVA CONTA</string>
+    <string name="home_icon_desc">Ícone de início</string>
+    <string name="confirm_password_label">Confirmar Senha</string>
+    <string name="confirm_password_hint">Digite sua senha novamente</string>
+    <string name="today_timestamp" translatable="false">${System.currentTimeMillis()}</string>
+    <string name="titulo_evento">NOME DO EVENTO</string>
+    <string name="hint_evento">Digite aqui....</string>
+    <string name="label_data">DATA:</string>
+    <string name="data_exemplo">14/04/25</string>
+    <string name="label_valor">VALOR:</string>
+    <string name="valor_exemplo">R$ 60,00</string>
+    <string name="checkbox_texto">Receber notificação de agendamento via e-mail</string>
+    <string name="botao_confirmar">CONFIRMAR AGENDAMENTO</string>
+    <string name="usuario_nome">Nome</string>
+    <string name="usuario_email">Email</string>
+    <string name="usuario_telefone">Telefone</string>
+    <string name="usuario_sala">Sala</string>
+    <string name="usuario_data">Data</string>
+    <string name="usuario_evento">Evento</string>
+    <string name="hint_nome_evento">Nome do Evento</string>
+    <string name="hint_data_evento">Data (DD/MM/AAAA)</string>
+    <string name="btn_confirmar_alteracoes">Confirmar Alterações</string>
+    <string name="titulo_app">RoomiFy</string>
+    <string name="subtitulo">ALUGUE SALAS DE REUNIÃO DE FORMA SIMPLES!</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="esqueci_senha">ESQUECI MINHA SENHA</string>
+    <string name="cadastro">CADASTRAR NOVA CONTA</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="confirmar_alteracoes">Confirmar Alterações</string>
+    <string name="nome_evento">Nome do Evento</string>
+    <string name="data_evento">Data (DD/MM/AAAA)</string>
+</resources>

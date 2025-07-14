@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:id="@+id/logout_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_disconnect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="RoomiFy"
+        android:textColor="#3A7F60"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@id/logout_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="USUÁRIO: "
+        android:textColor="#7B3E20"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="colocar nome do ADM"
+        android:textColor="#3A7F60"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/username_label"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="EMAIL: "
+        android:textColor="#7B3E20"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_label" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="colocar email"
+        android:textColor="#3A7F60"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/email_label"
+        app:layout_constraintTop_toBottomOf="@id/username_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/gerar_relat"
+        android:layout_width="191dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verde"
+        android:padding="12dp"
+        android:text="Gerar Relatórios"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alterar"
+        android:layout_width="190dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/verde"
+        android:padding="12dp"
+        android:text="Alterar Reserva"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gerar_relat" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/gerenciar_salas"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="@color/verde"
+        android:padding="12dp"
+        android:text="Gerenciar Salas"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alterar" />
+
+    <!-- Opcional: Remover esse Group se não estiver sendo usado dinamicamente -->
+    <androidx.constraintlayout.widget.Group
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="gerar_relat,alterar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

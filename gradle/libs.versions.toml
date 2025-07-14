@@ -1,0 +1,68 @@
+[versions]
+# Versões principais
+agp = "8.7.3"
+kotlin = "2.1.0"
+firebaseBom = "33.0.0"
+javamail = "1.6.7" # Adicionado
+itext7 = "7.2.5"
+
+# AndroidX
+coreKtx = "1.13.1"
+appcompat = "1.6.1"
+activity = "1.9.0"
+constraintlayout = "2.2.0-alpha13"
+lifecycle = "2.8.0"
+
+# Material
+material = "1.12.0"
+
+# Coroutines
+coroutines = "1.8.0"
+
+# Testes
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+
+# Firebase
+firebaseCommonKtx = "21.0.0"
+firebaseAuthKtx = "23.2.0"
+
+[libraries]
+# AndroidX
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+
+# Firebase (usando BOM)
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+firebase-common-ktx = { group = "com.google.firebase", name = "firebase-common-ktx", version.ref = "firebaseCommonKtx" }
+
+# Material
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Coroutines
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-play-services = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-play-services", version.ref = "coroutines" }
+
+# Testes
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+# iTextPDF
+itext7-core = { group = "com.itextpdf", name = "itext7-core", version.ref = "itext7" }
+
+# JavaMail
+javamail = { group = "com.sun.mail", name = "android-mail", version.ref = "javamail" } # Adicionado
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version = "4.4.2" }

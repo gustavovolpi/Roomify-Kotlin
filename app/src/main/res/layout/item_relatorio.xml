@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nome_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usuario_nome"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/email_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/usuario_email"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/telefone_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/usuario_telefone"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/sala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/usuario_sala"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/usuario_data"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/evento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/usuario_evento"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Cancelar reserva"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#B22222"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

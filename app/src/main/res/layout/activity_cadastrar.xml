@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo">
+
+
+    <ImageView
+        android:id="@+id/home_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="RoomiFy"
+        android:textColor="#3A7F60"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arsenal"
+        android:textStyle="bold"
+        android:text="ALUGUE SALAS DE REUNIÃO DE FORMA SIMPLES!"
+        android:textColor="#7B3E20"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bruno_ace"
+        android:text="NOME"
+        android:textColor="#3A7F60"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitle" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Digite seu nome..."
+        android:padding="10dp"
+        android:textColorHint="#7B3E20"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nametxt" />
+
+    <TextView
+        android:id="@+id/cpftxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bruno_ace"
+        android:text="CPF"
+        android:textColor="#3A7F60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <EditText
+        android:id="@+id/cpf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu CPF..."
+        android:textColorHint="#7B3E20"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/cpftxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/emailtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bruno_ace"
+        android:text="EMAIL"
+        android:textColor="#3A7F60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cpf" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu e-mail... EX: email@provedor.com"
+        android:textColorHint="#7B3E20"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/emailtxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/phonetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bruno_ace"
+        android:text="TELEFONE"
+        android:textColor="#3A7F60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu telefone... EX: (11) 99999-9999"
+        android:textColorHint="#7B3E20"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:inputType="phone"
+        app:layout_constraintTop_toBottomOf="@id/phonetxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bruno_ace"
+        android:text="SENHA"
+        android:textColor="#3A7F60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua senha..."
+        android:inputType="textPassword"
+        android:textColorHint="#7B3E20"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/senha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/password_confirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Repita sua senha..."
+        android:inputType="textPassword"
+        android:textColorHint="#7B3E20"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:text="CADASTRAR NOVA CONTA"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_confirm"
+        android:backgroundTint="@color/sim"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/fundo">
+
+    <!-- Card container for compact, centered form -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:maxWidth="340dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Campo para editar o nome do evento -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="356dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="8dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="#4CAF50"
+            app:hintEnabled="true"
+            app:hintTextColor="#4CAF50">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_nome_evento"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="@string/hint_nome_evento"
+                android:inputType="textCapWords"
+                android:padding="8dp"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Campo de data -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:layout_marginBottom="12dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="#4CAF50"
+            app:hintEnabled="true"
+            app:hintTextColor="#4CAF50">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_data"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="@string/hint_data_evento"
+                android:inputType="none"
+                android:padding="8dp"
+                android:textColor="#212121"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Botão para confirmar alterações -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_alterar"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:minWidth="120dp"
+            android:padding="8dp"
+            android:text="@string/btn_confirmar_alteracoes"
+            android:textColor="#212121"
+            android:textSize="14sp"
+            app:backgroundTint="#4CAF50"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+</LinearLayout>
