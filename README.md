@@ -5,48 +5,38 @@
 O Roomify é um aplicativo mobile desenvolvido em **Kotlin** e **Android Studio** com o objetivo de otimizar o processo de reserva e gerenciamento de salas de reunião em ambientes corporativos. Ele busca resolver problemas comuns como a falta de clareza sobre a disponibilidade das salas e a dificuldade em gerenciar horários, proporcionando uma plataforma centralizada para agendamentos eficientes.
 
 ![](screenshot/login.png)
-        _Tela de Login do aplicativo._
+_Tela de Login do aplicativo._
 
 ## Funcionalidades Principais
 
 O sistema oferece uma série de funcionalidades para facilitar a gestão de salas:
 
 * **Visualização de Disponibilidade:** Calendário interativo para visualizar a disponibilidade das salas em tempo real.
-    * ![](screenshot/calendario.png)
-
-        _Tela de Calendário para visualização de datas disponíveis._
+    ![](screenshot/calendario.png)
+    _Tela de Calendário para visualização de datas disponíveis._
 * **Gestão de Reservas:**
     * Realização de novas reservas com confirmação automática por e-mail.
-        * ![](screenshot/confirmar_agendamento.png)
-
-            _Tela de confirmação de agendamento._
-    * Alteração de reservas existentes (para administradores)
-
-        * ![](screenshot/gerenciar_salas.png)
-
-            _Tela de gerenciamento de salas (Administrador)._
+        ![](screenshot/confirmar_agendamento.png)
+        _Tela de confirmação de agendamento._
+    * Alteração de reservas existentes (para administradores).
+        ![](screenshot/gerenciar_salas.png)
+        _Tela de gerenciamento de salas (Administrador)._
     * Cancelamento de reservas, com atualização imediata da disponibilidade da sala.
-* **Autenticação e Perfis de Acesso:** Sistema de login seguro com diferentes níveis de acesso para Usuários Comuns e Administradores.    
-    * ![](screenshot/cadastro.png)
-
-        _Tela de Cadastro de novas contas._
+* **Autenticação e Perfis de Acesso:** Sistema de login seguro com diferentes níveis de acesso para Usuários Comuns e Administradores.
+    ![](screenshot/cadastro.png)
+    _Tela de Cadastro de novas contas._
 * **Recuperação de Senha:** Funcionalidade para recuperação de senha via e-mail.
-    * ![](screenshot/recuperar_senha.png)
-
-        _Tela de Recuperação de Senha._
+    ![](screenshot/recuperar_senha.png)
+    _Tela de Recuperação de Senha._
 * **Relatórios Detalhados:** Geração e exportação de relatórios de uso das salas (filtrados por tipo de sala e exportáveis em PDF).
-
-    * ![](screenshot/gerar_relatorio.png)
-
-        _Tela de Geração de Relatórios._
-
-    * ![](screenshot/tela_admin.png)
-
-_Visão geral da tela principal do administrador._
+    ![](screenshot/gerar_relatorio.png)
+    _Tela de Geração de Relatórios._
+    ![](screenshot/tela_admin.png)
+    _Visão geral da tela principal do administrador._
 * **Gerenciamento Administrativo:**
     * Atualização de valores de aluguel das salas (para administradores).
-        * ![](screenshot/aluguel.png)
-            _Tela para alterar o valor do aluguel de salas._
+        ![](screenshot/aluguel.png)
+        _Tela para alterar o valor do aluguel de salas._
     * Exclusão de reservas (para administradores).
 * **Notificações:** Envio de e-mails sobre quaisquer mudanças ou reservas realizadas.
 
@@ -72,7 +62,7 @@ Para executar e desenvolver o Roomify, você precisará de:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/gustavovolpi/Roomify-Kotlin.git]
+    git clone [https://github.com/gustavovolpi/Roomify-Kotlin.git](https://github.com/gustavovolpi/Roomify-Kotlin.git)
     cd Roomify-Kotlin
     ```
 2.  **Configuração do Firebase:**
@@ -143,5 +133,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
