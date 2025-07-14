@@ -93,7 +93,7 @@ A estrutura segue o padrão de projetos Android:
 * `settings.gradle.kts`: Configurações de módulos do Gradle.
 * `README.md`: Este arquivo de documentação.
 * `LICENSE`: O arquivo de licença do projeto.
-* `screenshots/`: Pasta para armazenar as imagens das telas do aplicativo.
+* `screenshot/`: Pasta para armazenar as imagens das telas do aplicativo.
 
 ## Mais Telas do Roomify
 
@@ -126,7 +126,7 @@ Para uma visão mais detalhada da interface do usuário e outras funcionalidades
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs ou sugestões de novas funcionalidades, ou enviar pull requests.
 
-## Autores
+## Autor
 
 * GUSTAVO VOLPI
 
